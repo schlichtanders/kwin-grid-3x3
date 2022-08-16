@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Quicktile on 3x3 grid",
+        "Description": "Quickly tile your windows on a 3x3 grid by combining multiple keystrokes of the numbers 1 to 9.",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "stephan.sahm@jolin.io",
+                "Name": "Stephan Sahm"
+            }
+        ],
+        "Id": "grid-3x3",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0",
+        "Licsense": "GPLv3",
+        "Website": "https://github.com/schlichtanders/kwin-grid-3x3"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
